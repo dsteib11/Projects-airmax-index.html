@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body  {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-image:url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/aff85856774853.5a93c8fd771ab.png");
+  background: cover;
+  background-repeat: no-repeat;
+  background-position-y: 55vh;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.content-area {
+  background-color: blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.content-area
+.left-menu {
+  display: flex;
+  text-align: center;
+}
+
+.content-area
+.left-menu
+.logo {
+  display: flex;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin: 0 50px 0 0;
+}
+
+.content-area
+.left-menu
+.menu-nav {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.content-area
+.left-menu
+.menu-nav 
+div {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+
+.content-area
+.right-menu {
+  display: flex;
+}
+
+
+.content-area
+.right-menu
+div {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.content-area
+.right-menu
+.login {
+  border-right: 2px solid #fff;
+  padding: 0 10px;
+}
+
+.content-area
+.right-menu
+.shopcart {
+}
